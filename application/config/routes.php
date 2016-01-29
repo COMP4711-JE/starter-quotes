@@ -45,8 +45,11 @@ $route['lock/em/up'] = 'Welcome/shucks';
 $route['sleep'] = "first/zzz";
 $route['show/(:num)'] = "first/gimme/$1";
 
+$route['([a-zA-Z]{4})/bingo'] = "Bingo/index";
+
 $route['dunno'] =
-function () {
+function () 
+{
     $source = './data/bob-monkhouse-150x150.jpg';
     if (!file_exists($source)) { show_404($source); }
     //$this->load->helper('file');
