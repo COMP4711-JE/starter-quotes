@@ -3,8 +3,8 @@ Starter Webapp - Quotes
 #######################
 
 Team Members:
-Chih Tseng
-Eddy Lau
+Chih Tseng 
+Eddy Lau -- Hello
 Convention:
 Use Allman style notations
 
