@@ -58,6 +58,7 @@ $autoload['packages'] = array();
 $autoload['libraries'] = array('parser');
 
 
+
 /*
   | -------------------------------------------------------------------
   |  Auto-load Helper Files
@@ -67,7 +68,7 @@ $autoload['libraries'] = array('parser');
   |	$autoload['helper'] = array('url', 'file');
  */
 
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url','file');
 
 
 /*
