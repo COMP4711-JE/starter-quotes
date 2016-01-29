@@ -4,7 +4,7 @@ Starter Webapp - Quotes
 
 Team Members:
 Chih Tseng 
-Eddy Lau -- Hello
+Eddy Lau -- Hello, World!!!
 Convention:
 Use Allman style notations
 
