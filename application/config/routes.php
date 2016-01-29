@@ -40,9 +40,25 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+$route['lock/em/up'] = 'Welcome/shucks';
 
 $route['sleep'] = "first/zzz";
 $route['show/(:num)'] = "first/gimme/$1";
+
+$route['dunno'] =
+function () {
+    $source = './data/bob-monkhouse-150x150.jpg';
+    if (!file_exists($source)) { show_404($source); }
+    //$this->load->helper('file');
+    //$mimeType = get_mime_by_extension($source);
+    header("Content-type: image/jpeg"); 
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
+
+
+$route['(^comp)([0-9]{4})/wisdom'] = 'Wise/bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
