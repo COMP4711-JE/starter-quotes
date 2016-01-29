@@ -35,7 +35,8 @@ class Welcome extends Application {
 	}
         
         
-        function shucks() {
+        function shucks() 
+        {
             $this->data['pagebody'] = 'justone';	 
             $record = $this->quotes->get(2);
             $this->data = array_merge($this->data, $record);
